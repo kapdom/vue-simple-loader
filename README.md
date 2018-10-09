@@ -45,11 +45,17 @@ Vue.js 2.+
 You don't need configure all this options. Only "**inProgress"** property is necessary to tell loader when should be displayed.
 ## Properties
 ``inProgress`` *Boolean*  - Show or hide loader.
+
 ``text`` *String* - Text to display.
+
 ``textColor`` *String* - Text colour.
+
 ``setColor`` *Object {firstCircle: 'color', secondCircle: 'color'}* - Use if you would like to change loader colors.
+
 ``setHeight`` *Number* - Loader height.
+
 ``setWidth`` *Number* - Loader width.
+
 ``htmlElem`` *HTMLElement* - As a parameter, pass reference to html element (like in example above). Use this
 option if you would like to set loader dimensions exactly the same like other html element.
  
