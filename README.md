@@ -1,6 +1,6 @@
 
 # Vue Simple Loader
-Add nice and simple loader to your project.
+Nice and simple loader to your project.
 ## Getting started
 #### Requirements
 Vue.js 2.+
@@ -42,7 +42,7 @@ Vue.js 2.+
 		     }
 	    }
     </script>
-You don't need configure all this options. Only "**inProgress"** property is necessary to tell loader when should be displayed.
+You don't need to configure all options. Only "**inProgress"** property is necessary to tell loader when it should be displayed.
 ## Properties
 ``inProgress`` *Boolean*  - Show or hide loader.
 
@@ -50,16 +50,16 @@ You don't need configure all this options. Only "**inProgress"** property is nec
 
 ``textColor`` *String* - Text colour.
 
-``setColor`` *Object {firstCircle: 'color', secondCircle: 'color'}* - Use if you would like to change loader colors.
+``setColor`` *Object {firstCircle: 'color', secondCircle: 'color'}* - Use this if you would like to change loader colors.
 
 ``setHeight`` *Number* - Loader height.
 
 ``setWidth`` *Number* - Loader width.
 
 ``htmlElem`` *HTMLElement* - As a parameter, pass reference to html element (like in example above). Use this
-option if you would like to set loader dimensions exactly the same like other html element.
+option if you would like to set loader dimensions exactly the same as other html element.
  
 ## Other info
-Loader dimensions always automaticity set to parent height and width. Always you can set own size using properties like in example above.
+Loader dimensions always automaticity set to parent height and width. You can always set own size using properties like in example above.
 ## License
 MIT
